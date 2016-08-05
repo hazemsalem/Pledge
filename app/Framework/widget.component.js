@@ -25,4 +25,4 @@ exports.WidgetComponent = WidgetComponent;
 // export interface IWidget {
 //     title: string;
 // } 
-//# sourceMappingURL=widget.Component.js.map
+//# sourceMappingURL=widget.component.js.map
