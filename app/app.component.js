@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-//import {WidgetComponent} from './Framework/widget.Component';
+var widget_Component_1 = require('./Framework/widget.Component');
 var AppComponent = (function () {
     function AppComponent() {
         this.name = 'Fraedom';
@@ -20,7 +20,8 @@ var AppComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'pledge-app',
-            template: "<h1>{{name}} Platform </h1>\n                <widget></widget>\n                "
+            template: "<h1>{{name}} Platform </h1>\n                <widget></widget> ",
+            directives: [widget_Component_1.WidgetComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

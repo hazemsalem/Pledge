@@ -3,12 +3,12 @@ import { Component } from '@angular/core';
 @Component({
 
     selector: 'widget',
-    template: '<h2>test widget</h2>'
+    templateUrl: 'app/framework/widget.component.html'
 })
 
 export class WidgetComponent  {
 
-    //title = 'First Widget';
+ title = 'First Widget';
 
 }
 

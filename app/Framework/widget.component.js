@@ -11,11 +11,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var WidgetComponent = (function () {
     function WidgetComponent() {
+        this.title = 'First Widget';
     }
     WidgetComponent = __decorate([
         core_1.Component({
             selector: 'widget',
-            template: '<h2>test widget</h2>'
+            templateUrl: 'app/framework/widget.component.html'
         }), 
         __metadata('design:paramtypes', [])
     ], WidgetComponent);
@@ -25,4 +26,4 @@ exports.WidgetComponent = WidgetComponent;
 // export interface IWidget {
 //     title: string;
 // } 
-//# sourceMappingURL=widget.component.js.map
+//# sourceMappingURL=widget.Component.js.map
