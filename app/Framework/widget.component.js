@@ -9,6 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var header_component_1 = require('./header.component');
 var WidgetComponent = (function () {
     function WidgetComponent() {
         this.title = 'First Widget';
@@ -16,7 +17,8 @@ var WidgetComponent = (function () {
     WidgetComponent = __decorate([
         core_1.Component({
             selector: 'widget',
-            templateUrl: 'app/framework/widget.component.html'
+            templateUrl: 'app/framework/widget.component.html',
+            directives: [header_component_1.HeaderComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], WidgetComponent);
